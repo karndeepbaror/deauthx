@@ -70,7 +70,22 @@ python3 deauthx.py
 
 - **Scan Speed**: `2.4GHz/5GHz` Spectrum Analysis in < 15 seconds.
 - **Injection Rate**: `Up to 100 packets/sec` for high-impact disruption.
-- **UI Engine**: Built with Rich Library for `real-time telemetry display.` 
+- **UI Engine**: Built with Rich Library for `real-time telemetry display.`
+
+## 📁 Project Architecture & Navigation
+```
+DeauthNet/
+├── 📁 docs/                         # Detailed documentation & protocol insights
+│   ├── 📄 ARCHITECTURE.md           # System design & core engine details
+│   ├── 📄 OPERATIONAL.md            # Setup & hardware compatibility guide
+│   └── 📄 PROTOCOLS.md              # Technical deep-dive into 802.11 frames
+├── 📁 DeauthX/                      # Core Tool Binaries & Scripts
+│   ├── 📄 deauthnet.py              # Main executable framework (Python Core)
+│   ├── 📄 requirements.txt          # Essential Python dependencies
+│   └── 📄 setup.sh                  # One-click automated installation script
+├── 📄 LICENSE                       # MIT Legal permissions
+└── 📄 README.md                     # Global landing page & overview
+```
 
 ## 🌐 Join Our Cyber-Intelligence Community
 
