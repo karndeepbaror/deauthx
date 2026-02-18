@@ -1,0 +1,36 @@
+# --- Python Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+bin/
+lib/
+include/
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+
+# --- IDE & Editors ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Tool Specific / Forensic Logs ---
+*.cap
+*.pcap
+*.csv
+*.log
+*.enc
+# (Ye files audit ke waqt generate ho sakti hain, inhein repo mein nahi dalna chahiye)
+
+# --- Documentation Build ---
+site/
+_build/
