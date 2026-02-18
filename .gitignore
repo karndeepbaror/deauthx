@@ -29,7 +29,6 @@ Thumbs.db
 *.csv
 *.log
 *.enc
-# (Ye files audit ke waqt generate ho sakti hain, inhein repo mein nahi dalna chahiye)
 
 # --- Documentation Build ---
 site/
