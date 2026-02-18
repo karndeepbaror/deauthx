@@ -10,7 +10,7 @@
 [![Security](https://img.shields.io/badge/SECURITY-OFFENSIVE-red?style=for-the-badge&logo=securityscorecard&logoColor=white)](https://github.com/karneepbaror)
 [![Uptime](https://img.shields.io/badge/STATUS-OPERATIONAL-green?style=for-the-badge)](https://github.com/karneepbaror)
 
-**DEAUTH-X** is a next-generation wireless auditing suite engineered for **Red Team Operations**. It specializes in surgical 802.11 management frame injection, allowing security researchers to analyze wireless infrastructure resilience under high-stress deauthentication scenarios.
+**DEAUTH-X** is a next-generation wireless auditing suite engineered for **Red Team Operations**. It specializes in surgical `802.11 management frame injection`, allowing security researchers to analyze wireless infrastructure resilience under high-stress deauthentication scenarios.
 
 </div>
 
@@ -47,19 +47,30 @@ sudo apt update && sudo apt install aircrack-ng network-manager python3 python3-
 ```
 
 ### ⚙️ Installation Flow
+
+#### clone the repository
 ```
-git clone https://github.com/karndeepbaror/deauthx 
+git clone https://github.com/karndeepbaror/deauthx
+```
+#### into tool directory 
+```
 cd deauthx
 cd DeauthX
+```
+#### give executable permission
+```
 chmod +x deauthx.py
+```
+#### run program 
+```
 python3 deauthx.py
 ```
 
 ## 📊 Performance Metrics
 
-• Scan Speed: 2.4GHz/5GHz Spectrum Analysis in < 15 seconds.     
-• Injection Rate: Up to 100 packets/sec for high-impact disruption.     
-• UI Engine: Built with Rich Library for real-time telemetry display.  
+- **Scan Speed**: `2.4GHz/5GHz` Spectrum Analysis in < 15 seconds.
+- **Injection Rate**: `Up to 100 packets/sec` for high-impact disruption.
+- **UI Engine**: Built with Rich Library for `real-time telemetry display.` 
 
 ## 🌐 Join Our Cyber-Intelligence Community
 
@@ -87,7 +98,7 @@ python3 deauthx.py
 
 ## 📜 Ethical & Legal Compliance
 
-DEAUTH-X is developed for Authorized Penetration Testing and Educational Audits only. Usage of this tool against public or private networks without explicit written consent is a violation of international cyber laws. Play safe, audit ethically.
+`DEAUTH-X` is developed for Authorized Penetration Testing and Educational Audits only. Usage of this tool against public or private networks without explicit written consent is a violation of international cyber laws. Play safe, audit ethically.
 
 ## 🔗 CONNECT WITH ME
 
