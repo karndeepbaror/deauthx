@@ -50,6 +50,7 @@ sudo apt update && sudo apt install aircrack-ng network-manager python3 python3-
 ```
 git clone https://github.com/karndeepbaror/deauthx 
 cd deauthx
+cd DeauthX
 chmod +x deauthx.py
 python3 deauthx.py
 ```
