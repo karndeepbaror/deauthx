@@ -80,7 +80,7 @@ DeauthNet/
 │   ├── 📄 OPERATIONAL.md            # Setup & hardware compatibility guide
 │   └── 📄 PROTOCOLS.md              # Technical deep-dive into 802.11 frames
 ├── 📁 DeauthX/                      # Core Tool Binaries & Scripts
-│   ├── 📄 deauthnet.py              # Main executable framework (Python Core)
+│   ├── 📄 deauthx.py              # Main executable framework (Python Core)
 │   ├── 📄 requirements.txt          # Essential Python dependencies
 │   └── 📄 setup.sh                  # One-click automated installation script
 ├── 📄 LICENSE                       # MIT Legal permissions
