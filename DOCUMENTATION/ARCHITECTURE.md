@@ -15,4 +15,4 @@ Upon termination (SIGINT), the framework executes a cleanup sequence:
 - **Interface Reset:** Reverts the card to Managed Mode.
 - **Service Restore:** Restarts `NetworkManager` or `wpa_supplicant`.
 - **Memory Flush:** Clears temporary lists of discovered nodes.
-- 
+
